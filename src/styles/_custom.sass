@@ -2,44 +2,176 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 13%
+    right: 45%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 18%
+    right: 4%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 48%
+    right: 10%
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
-  
-///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
-.banner-principal .tarjeta
-  background-position: left 50% !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+.color-final
+  background-color: #FFF4DA !important
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+.bloque-texto-b.color-secundario:before
+  background-color: #D9FAFF !important
 
-figcaption
-  font-weight: normal
+.bloque-texto-x
+  position: relative
+  display: flex
+  justify-content: flex-start
 
-.banner-principal__row .banner-principal__img
-  width: 500px !important
-  @media screen and (max-width: $bp-max-xl)
-    width: 400px !important
+.bloque-texto-x__img
+  width: 50%
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  background-position: right
+  background-size: cover
+.bloque-texto-x__texto
+  position: relative
+  width: 60%
+  background-color: rgba(255, 255, 255, 0.95)
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
-.banner-interno__fondo
-  background-image: url("../assets/curso/banner_interno.png") !important
-.banner-principal .tarjeta
-  @media screen and (max-width: $bp-max-md)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-sm)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+.acordion__accion__btn--a
+  background-color: #084A93 !important
+
+.acordion__activo
+  background-color: #E8E8E8 !important
+
+.linea-tiempo-c
+  background-color: #EDF7FE !important
+
+.faa
+  background-color: #A6F4FE !important
+
+.fab
+  background-color: #F9E0A9 !important
+
+.fac
+  background-color: #E8E8E8 !important
+
+.fad
+  background-color: #063B70 !important
+
+.fae
+  background-color: #FFE6B0 !important
+
+.faf
+  background-color: #F1F8FF !important
+
+.fag
+  background-color: #F5FAFF !important
+
+.fah
+  background-color: #B8DCFB !important
+
+.actividad
+  background-color: #053F77 !important
+
+.color-texto
+  color: #2FCE1D !important
+
+.color-texto-segundo
+  color: #FC0000 !important
+
+.slyder-a__btn--sigt
+  background-color: #00DEFC !important
+
+.slyder-a__btn--atrs
+  background-color: #00DEFC !important
+
+.slyder-a__bullets__item--active
+  background-color: #00DEFC !important
+
+.bloque-texto-q
+  position: relative
+
+.bloque-texto-q.color-secundario:before
+  background-color: #EDF7FE
+
+.bloque-texto-q:before
+  content: ''
+  display: block
+  position: absolute
+  top: 70%
+  bottom: 0
+  left: 30%
+  right: 0%
+
+.tarjeta--gris
+  background-color: #EDF7FE !important
+
+.fa-check
+  color: #FFB30B !important
+
+.fa-minus
+  color: #FFFFFF !important
+
+.aside-menu__menu__item--sub-menu--active .aside-menu__menu__item__lnk, .aside-menu__menu__item--sub-menu--active .aside-menu__sec-menu__item__lnk
+  background-color: #D8ECFF !important
+
+//.bloque-texto-a__texto.p-4, .bloque-texto-g__texto.p-4
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    width: calc( 100% + 2rem )
+    height: calc( 100% + 2rem )
+    border: dashed $color-primario
+    top: -1rem
+    left: -1rem
+.banner-principal__img
+  width: 400px !important
+
+.contenedor-dashed
+  border: 2px dashed #004B89
+  position: relative
+
+//.bloque-texto-g1__texto
+  position: relative
+  width: 100%
+  background-color: rgba(255, 255, 255, 0.95)
+
+.contenedor-dashed-2
+    border: 2px dashed #004B89
+    position: relative
+    right: 50%
+    @media (max-width: 500px)
+      right: 0%
+
+
+.bloque-texto-g1__img 
+  width: 50%
+  position: absolute
+  top: 0
+  left: 50%
+  bottom: 0
+  background-position: center
+  background-size: cover
+  @media (max-width: 500px)
+    height: 250px
+    width: 100%
+    left: 0%
+
+.bloque-texto-g1__texto 
+  position: relative
+  width: 100%
+  background-color: rgba(255, 255, 255, 0.95)
+  right: 0%
+  @media (max-width: 500px)
+    width: 100%
+    right: 0%

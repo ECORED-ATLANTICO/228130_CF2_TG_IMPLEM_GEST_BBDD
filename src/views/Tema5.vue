@@ -5,14 +5,135 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Tema 5
+      h1 Políticas organizacionales
+
+    .row.justify-content-around.align-items-center.mt-5
+      .col-10
+        .row
+          .col-12.d-lg-block
+            .bloque-texto-x.fah.p-3.p-sm-4.p-md-4.mb-5
+              .col-lg-4
+                .bloque-texto-g1__img(
+                  :style="{'background-image': `url(${require('@/assets/curso/temas/T5/img-1.png')})`}"
+                )
+              .col-lg-8
+                .contenedor-dashed-2.p-3
+                  .bloque-texto-g1__texto.p-3
+                    p.mb-3 Las políticas organizacionales de las empresas son relevantes porque permiten un adecuado procedimiento frente a diversas situaciones, dentro de ellas se considera importante contar con políticas de seguridad que guiarán a los usuarios responsables de cada proceso a actuar en consecuencia para salvaguardar la información obtenida, generada o procesada por la entidad, así mismo, las políticas permitirán que la organización trabaje bajo las mejores prácticas de seguridad y cumpla con los requisitos legales a los cuales esté obligada en el plano gubernamental de cada país.
 
 
+    ul.lista-ul--color
+      li
+        i.fas.fa-square
+        h4 Políticas de seguridad
+
+    .row.justify-content-around.align-items-center.mb-5
+      .col-lg-1.mb-4
+        figure(data-aos='fade-right')
+          img(src='@/assets/curso/temas/T5/img-2.svg', alt='')
+                    
+      .col-lg-11.mb-5
+        p.mb-2 A continuación, podrá conocer sobre el desarrollo de las políticas organizacionales, las cuales deben pasar por ciertas fases para la definición de responsabilidades de las áreas encargadas de su creación, estructuración, descripción, revisión y aprobación; para lo cual se requieren actividades de verificación e investigación en los siguientes aspectos:
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 1
+      br
+      span.fst-italic Políticas de seguridad
+    .row.justify-content-around.align-items-center.mb-5
+      figure(data-aos='fade-right')
+        img(src='@/assets/curso/temas/T5/img-3.svg', alt='')
+
+
+    p.mb-5 El proceso de migración de datos, es la acción que permite cambiar el origen y el formato de los datos, a otro sistema de almacenamiento; este proceso se aplica en repetidas ocasiones, debido a que la reorganización de los datos a los nuevos sistemas, puede causar pérdidas de información o errores de almacenamiento; sin embargo, se hace necesario en el proceso de las diversas tareas, como: el reemplazo o actualización de servidores o equipos, el mejoramiento de un sitio web, el mantenimiento o cambio de un servidor o para reubicar un centro de datos. Observemos, a continuación, este proceso:
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/T5/img-4.svg', alt='Texto que describa la imagen')
+
+          .tarjeta.fae.p-3(x="16%" y="4%" numero="")
+            p Determinar, al interior de la entidad, la persona, rol o dirección que tiene la competencia de formalizar las políticas de seguridad de la información mediante la firma y publicación de las mismas.
+
+          .tarjeta.fae.p-3(x="33%" y="95%" numero="")
+            p  Identificar el porqué la entidad requiere la creación de la política de seguridad de información y el control al cual hace referencia su implementación.
+
+          .tarjeta.fae.p-3(x="50%" y="4%" numero="")
+            p  Establecer el alcance ¿A qué población, áreas, procesos o departamentos aplica la política?, ¿Quiénes deben cumplir la política?
+
+          .tarjeta.fae.p-3(x="66%" y="95%" numero="")
+            p Definir los responsables y los roles para la implementación, aplicación, seguimiento y autorización de la política.
+
+          .tarjeta.fae.p-3(x="83%" y="4%" numero="")
+            p Evaluar la redacción y aplicabilidad de la política y realizar sugerencias sobre el desarrollo y creación de la misma.
+
+
+    ul.lista-ul--color
+      li
+        i.fas.fa-square
+        h4.mb-0 Políticas para la implementación de controles de seguridad de la información 
+
+    
+    p.mb-5 Definir las políticas de seguridad para las bases de datos con el fin de proteger la información, es un hecho prioritario para las organizaciones por su alta sensibilidad y valor comercial. Por lo tanto, se deben tener presentes los siguientes puntos:
+
+
+    .row.mb-5.md-5
+      .col-md-7
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fac")
+          .row(titulo="a) Control de acceso")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-3 Son todas aquellas directrices mediante las cuales las organizaciones determinan los mecanismos de protección de la información por medio de los ingresos de usuarios, tales como:
+              ul.lista-ul.mt-3
+                li 
+                  i.fas.fa-check
+                  | Control de acceso con usuario y contraseña
+                li 
+                  i.fas.fa-check
+                  | Suministro del control de acceso
+                li 
+                  i.fas.fa-check
+                  | Gestión de Contraseñas
+                li 
+                  i.fas.fa-check
+                  | Perímetros de Seguridad
+
+          .row(titulo="b)	Disponibilidad del servicio de información")
+            .col-md-12.mb-4.mb-md-0
+              p Las organizaciones deben contar con un plan de continuidad del negocio con el fin de asegurar, recuperar o restablecer la disponibilidad de los procesos que soportan el Sistema de Gestión de Seguridad de la Información, esta política es muy importante porque determina los pasos que se deben seguir para el resguardo y correcto funcionamiento de la información.
+              ul.lista-ul.mt-3
+                li 
+                  i.fas.fa-check
+                  | Disponibilidad
+                li 
+                  i.fas.fa-check
+                  | Planes de recuperación
+                li 
+                  i.fas.fa-check
+                  | Interrupciones
+                li 
+                  i.fas.fa-check
+                  | Acuerdos del nivel de servicio de la información
+                li 
+                  i.fas.fa-check
+                  | Gestión de cambios
+
+
+      .col-md-5.mb-5.mb-md-0
+        figure
+          img(data-aos='fade-right')(src='@/assets/curso/temas/T5/img-5.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #fff4da ")
+          p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+      
+
+    
 </template>
 
 <script>
 export default {
-  name: 'Tema5',
+  name: 'Tema3',
   data: () => ({
     // variables de vue
   }),
