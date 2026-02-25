@@ -10,7 +10,7 @@
             img(src="@/assets/curso/ad.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Seguridad de Bases de Datos
+          h2 Seguridad de bases de datos
         p.mb-4 Organice y relacione de manera correcta las definiciones y conceptos a continuación.
           br
           br

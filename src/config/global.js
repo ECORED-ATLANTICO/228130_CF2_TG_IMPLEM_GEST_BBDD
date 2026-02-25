@@ -208,7 +208,7 @@ export default {
       referencia:
         'Pulido Romero, E., et al.(2019), <em>Base de datos.</em> Grupo Editorial Patria.   ',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/121283 ',
+        'https://es.scribd.com/document/728742385/BaseDatos-Pulido-Escobar-Nunez-eBook',
     },
     {
       referencia:

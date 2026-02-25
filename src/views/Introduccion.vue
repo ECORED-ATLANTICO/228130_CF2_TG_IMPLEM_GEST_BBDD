@@ -10,7 +10,7 @@
       h1 Introducción
 
     .row.justify-content-around.align-items-center.mb-5
-      .col-lg-3.mb-4
+      .col-md-6.col-lg-3.mb-4
         figure(data-aos='fade-right')
           img(src='@/assets/curso/temas/introduccion/img-1.png', alt='')
 
