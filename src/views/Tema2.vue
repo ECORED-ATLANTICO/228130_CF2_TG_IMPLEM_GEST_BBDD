@@ -21,9 +21,7 @@
                 p SQL permite restaurar los datos de las copias de seguridad de toda una base de datos, un archivo de datos o una página de datos, tal y como se describe a continuación:
 
 
-    h3.mb-4(data-aos="fade-right")
-      i.fas.fa-square.cac.me-2
-      | Restauración de bases de datos completa
+    h3.titulo-tercero(data-aos="fade-right") Restauración de bases de datos completa
 
     .row.mb-5.align-items-center.justify-content-center
       .col-6.col-md-2.col-lg-1.mb-3.mb-lg-0
@@ -32,9 +30,7 @@
       .col-md-10.col-lg-11
         p.mb-0 Se restaura y recupera toda la base de datos que permanece sin conexión, esta acción se ejecuta cuando más del 50% de los datos se han dañado o se presume que lo hicieron.
 
-    h3.mb-4(data-aos="fade-right")
-      i.fas.fa-square.cac.me-2
-      | Restauración bases de datos SQL. MySQL
+    h3.titulo-tercero(data-aos="fade-right") Restauración bases de datos SQL. MySQL
 
     p.mb-5 Para las copias de seguridad con MySQL, se debe crear una base de datos nueva para guardar la información de la copia del archivo de respaldo que se ha generado en un repositorio o carpeta. La generación de este archivo se puede definir, según la metodología de seguridad de bases de datos, que puede ser por meses, semanas o días. Se debe realizar de la siguiente manera:
 
@@ -55,9 +51,7 @@
           .col-lg-6
             p Copia de seguridad base de datos
 
-    h3.mb-4(data-aos="fade-right")
-      i.fas.fa-square.cac.me-2
-      | Restauración de bases de datos NoSQL
+    h3.titulo-tercero(data-aos="fade-right") Restauración de bases de datos NoSQL
 
     .row.justify-content-center.mb-5
       .col-lg-10

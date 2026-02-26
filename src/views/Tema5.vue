@@ -20,9 +20,7 @@
                 p.mb-0 Las políticas organizacionales de las empresas son relevantes porque permiten un adecuado procedimiento frente a diversas situaciones, dentro de ellas se considera importante contar con políticas de seguridad que guiarán a los usuarios responsables de cada proceso a actuar en consecuencia para salvaguardar la información obtenida, generada o procesada por la entidad, así mismo, las políticas permitirán que la organización trabaje bajo las mejores prácticas de seguridad y cumpla con los requisitos legales a los cuales esté obligada en el plano gubernamental de cada país.
 
 
-    h3.mb-4(data-aos="fade-right")
-      i.fas.fa-square.cac.me-2
-      | Políticas de seguridad
+    h3.titulo-tercero(data-aos="fade-right") Políticas de seguridad
 
     .row.justify-content-around.align-items-center.mb-5
       .col-6.col-md-2.col-lg-1.mb-3.mb-lg-0
@@ -66,9 +64,7 @@
             p.mb-0 Evaluar la redacción y aplicabilidad de la política y realizar sugerencias sobre el desarrollo y creación de la misma.
 
 
-    h3.mb-4(data-aos="fade-right")
-      i.fas.fa-square.cac.me-2
-      | Políticas para la implementación de controles de seguridad de la información 
+    h3.titulo-tercero(data-aos="fade-right") Políticas para la implementación de controles de seguridad de la información 
 
     
     p.mb-5 Definir las políticas de seguridad para las bases de datos con el fin de proteger la información, es un hecho prioritario para las organizaciones por su alta sensibilidad y valor comercial. Por lo tanto, se deben tener presentes los siguientes puntos:

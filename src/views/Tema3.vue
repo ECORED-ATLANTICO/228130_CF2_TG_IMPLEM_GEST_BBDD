@@ -33,9 +33,7 @@
         figure
           img(data-aos='fade-right')(src='@/assets/curso/temas/T3/img-2.png', alt='Obrero')
 
-    h3.mb-4.mt-5(data-aos="fade-right")
-      i.fas.fa-square.cac.me-2
-      | <b>Migración de SQL a NoSQL</b>
+    h3.mt-5.titulo-tercero(data-aos="fade-right") <b>Migración de SQL a NoSQL</b>
 
     p.mb-5 Ya se han visto las múltiples razones que justifican la migración de bases de datos, siempre con el objetivo de optimizar procesos en su gestión y administración; a continuación, se presenta la metodología o técnicas que se deben tener en cuenta, para la migración de datos:
 

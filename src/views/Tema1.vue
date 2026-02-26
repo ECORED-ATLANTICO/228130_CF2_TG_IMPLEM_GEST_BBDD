@@ -46,9 +46,7 @@
           p.mb-0 MySQL ofrece múltiples opciones de copia de seguridad entre las que es posible elegir las características que mejor se adapten a los requisitos de su instalación.
 
 
-    h3.mb-4(data-aos="fade-right")
-      i.fas.fa-square.cac.me-2
-      | Copias de seguridad Bases de Datos SQL
+    h3.titulo-tercero(data-aos="fade-right") Copias de seguridad Bases de Datos SQL
 
     p.mb-5(data-aos='fade-right') El comando o utilidad cliente mysqldump, realiza copias de seguridad de una base de datos, con la sintaxis mysqldump y lo lleva a cabo creando, respaldando y restaurando comandos. A continuación, se observan algunos modelos de copias de seguridad de las bases de datos:
 
@@ -89,9 +87,7 @@
 
 
 
-    h3.mb-4(data-aos="fade-right")
-      i.fas.fa-square.cac.me-2
-      | Copias de seguridad en tablas de bases de datos relacionales
+    h3.titulo-tercero(data-aos="fade-right") Copias de seguridad en tablas de bases de datos relacionales
 
     p.mb-5 Las copias de seguridad son muy importantes para salvaguardar los datos. En el punto anterior, se visualizó una copia de bases de datos, ahora se realizará una copia de una tabla:
 
@@ -118,9 +114,7 @@
 
 
 
-    h3.mb-4(data-aos="fade-right")
-      i.fas.fa-square.cac.me-2
-      | Copias de seguridad bases de datos NoSQL
+    h3.titulo-tercero(data-aos="fade-right") Copias de seguridad bases de datos NoSQL
 
     
     .bloque-texto-g.fab.p-3.p-sm-4.p-md-4.mb-5
@@ -136,9 +130,7 @@
               p.mb-0 Cada copia de seguridad se define de acuerdo a cómo esté estimado en una empresa, por lo general se establecen diariamente; sin embargo, hay datos que son de una importancia tal, que deben ser copiados de manera instantánea.
 
 
-    h3.mb-4(data-aos="fade-right")
-      i.fas.fa-square.cac.me-2
-      | Migración de herramientas en MongoDB 4.4
+    h3.titulo-tercero(data-aos="fade-right") Migración de herramientas en MongoDB 4.4
 
     p.mb-4 A partir de MongoDB 4.4, la documentación mongodump, migra a MongoDB Database Tools. La migración se realiza de la siguiente manera:
     .tarjeta.tarjeta--gris.p-4.mb-5
